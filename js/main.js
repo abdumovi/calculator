@@ -78,7 +78,5 @@ ravno.addEventListener('click', function (e) {
       li.appendChild(document.createTextNode(resul +' = '+all));
       ul.appendChild(li);
     }
-    
   }
-
 });
