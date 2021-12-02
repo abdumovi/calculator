@@ -41,6 +41,8 @@ ravno.addEventListener('click', function (e) {
     if(resul.split('*').length > 1){
       let all = eval(resul);
       input.value = all;
+      lst1.length = 0;
+      lst1[lst1.length] = all;
       let li = document.createElement('li');
       li.className = 'list__item';
       li.appendChild(document.createTextNode(resul +' = '+all));
@@ -49,6 +51,8 @@ ravno.addEventListener('click', function (e) {
     else if(resul.split('/').length > 1){
       let all = eval(resul);
       input.value = all;
+      lst1.length = 0;
+      lst1[lst1.length] = all;
       let li = document.createElement('li');
       li.className = 'list__item';
       li.appendChild(document.createTextNode(resul +' = '+all));
@@ -57,6 +61,8 @@ ravno.addEventListener('click', function (e) {
     else if(resul.split('+').length > 1){
       let all = eval(resul);
       input.value = all;
+      lst1.length = 0;
+      lst1[lst1.length] = all;
       let li = document.createElement('li');
       li.className = 'list__item';
       li.appendChild(document.createTextNode(resul +' = '+all));
@@ -65,6 +71,8 @@ ravno.addEventListener('click', function (e) {
     else if(resul.split('-').length > 1){
       let all = eval(resul);
       input.value = all;
+      lst1.length = 0;
+      lst1[lst1.length] = all;
       let li = document.createElement('li');
       li.className = 'list__item';
       li.appendChild(document.createTextNode(resul +' = '+all));
@@ -73,7 +81,4 @@ ravno.addEventListener('click', function (e) {
     
   }
 
-});
-allCler.addEventListener('doubleClick',function(){
-  
 });
