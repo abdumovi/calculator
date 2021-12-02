@@ -9,7 +9,38 @@
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-
+  <div class="container">
+   <div class="calc">
+    <form class="form" action="#">
+      <div class="div">
+        <ul class="list">
+        </ul>
+      </div>
+      <input class="input" type="text" disabled>
+      <div class="btns">
+        <button class="btn item clerall" id="item-0">c</button>
+        <button class="btn item" id="item-1" value="/" onclick="elem(value)">/</button>
+        <button class="btn item" id="item-2" value="*" onclick="elem(value)">x</button>
+        <button class="btn item cler" id="item-3">cler</button>
+        <button class="btn item1 ravno" value="=" id="item-4">=</button>
+        <button class="btn num" id="item-5" value="7" onclick="nums(value)">7</button>
+        <button class="btn num" id="item-6" value="8" onclick="nums(value)">8</button>
+        <button class="btn num" id="item-7" value="9" onclick="nums(value)">9</button>
+        <button class="btn item" id="item-8" value="-" onclick="elem(value)">-</button>
+        <button class="btn item" id="item-9" value="+" onclick="elem(value)">+</button>
+        <button class="btn num" id="item-10" value="6" onclick="nums(value)">6</button>
+        <button class="btn num" id="item-11" value="5" onclick="nums(value)">5</button>
+        <button class="btn num" id="item-12" value="4" onclick="nums(value)">4</button>
+        <button class="btn num" id="item-13" value="1" onclick="nums(value)">1</button>
+        <button class="btn num" id="item-14" value="2" onclick="nums(value)">2</button>
+        <button class="btn num" id="item-15" value="3" onclick="nums(value)">3</button>
+        <button class="btn" id="item-16">%</button>
+        <button class="btn num" id="item-17" value="0" onclick="nums(value)">0</button>
+        <button class="btn" id="item-18">.</button>
+      </div>
+    </form>
+   </div> 
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>
